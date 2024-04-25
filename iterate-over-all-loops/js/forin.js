@@ -1,4 +1,4 @@
-const resumedata = {
+const curiculumvitae = {
     name:"Oviya S",
     title:"Software Engineer",
     Personaldetails: {
@@ -25,7 +25,6 @@ const resumedata = {
 Declaration:"I hereby declare that the above information is correct and true  to the  best of my knowledge"
 }
 
-for(let i=0; i < resumedata; i++){
-    const item= resumedata[i];
+for(let key in curiculumvitae){
+    console.log(key, curiculumvitae[key]);
 }
-console.log(resumedata);

@@ -1,4 +1,4 @@
-const resumedata = {
+const resumedata4 = {
     name:"Oviya S",
     title:"Software Engineer",
     Personaldetails: {
@@ -25,6 +25,6 @@ const resumedata = {
 Declaration:"I hereby declare that the above information is correct and true  to the  best of my knowledge"
 }
 
-for(let key of Object.keys(resumedata)){
-    console.log(key, resumedata[key]);
+for(let key of Object.keys(resumedata4)){
+    console.log(key, resumedata4[key]);
 }
